@@ -5,7 +5,6 @@ const auroraDeepSea = '#09253ABB';
 const auroraViolet = '#392556';
 const auroraTeal = '#23816D';
 const auroraEmerald = '#219A70';
-const auroraGlow = '#A8FFCE';
 const auroraSolar = '#F1C550';
 const auroraMist = '#C8F6FF';
 
