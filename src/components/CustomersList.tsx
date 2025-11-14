@@ -107,7 +107,7 @@ function CustomersList() {
             <Box display="flex" justifyContent="center" alignItems="center" mt={2} bgcolor="background.paper" p={2} borderRadius={2} style={{ backdropFilter: 'blur(20px)'}} width="fit-content" mx="auto">
                 <Pagination 
                     onChange={
-                        (event, page) => {
+                        (_, page) => {
                             getCustomers({ ...pagination, page })
                                 .then(({customers, meta}) => {
                                     setCustomers(customers);
